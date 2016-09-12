@@ -1,19 +1,42 @@
 # beginner-ruby
 
-## Grocery List
-* banana
-* chocolate
-* lunchables
-* doritos
-* mountain dont
+## Table of contents
+1. Variables
+2. Conditionals
+3. Methods
 
-## Code
+## How to ruby
 
-This is a 'variable' . Keep typing.
+#### This is how to define a **variable**:
 
 ```
-$git add .
+$ x = 10
+$ x = "string"
+$ x = ["this", "is", "an", "array"]
 ```
+
+A variable can be used to store a value. This value can be a number, series of letters- a **string**- or it can be an array, which is a series of values.
+
+#### These are **conditions**:
+1. "=="
+2. "!="
+3. ">"
+4. "<"
+5. ">="
+6. "<="
+7. "||"
+8. "^"
+```
+if (condition)
+    x = 3
+end
+
+while (condition)
+    x = x - 1
+end
+```
+
+Conditions are used to determine
 
 ```
 def my_method(a)
